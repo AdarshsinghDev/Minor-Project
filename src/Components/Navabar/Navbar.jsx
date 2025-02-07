@@ -12,7 +12,7 @@ function Navbar() {
     <>
       <div className="navbar">
         <div className="title nav-title">
-          GlobjjjjlBites <FontAwesomeIcon icon={faUtensils} />
+          GloblBites <FontAwesomeIcon icon={faUtensils} />
         </div>
         <div className="nav-link">
           <ul>
