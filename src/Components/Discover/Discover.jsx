@@ -1,6 +1,5 @@
 import React from "react";
 import "./Discover.scss";
-import Card from "../Card/Card";
 import map from "../../assets/map.jpg";
 
 function Discover() {
