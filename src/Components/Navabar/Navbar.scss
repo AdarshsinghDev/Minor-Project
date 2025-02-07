@@ -1,0 +1,48 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #F5F5F5;
+    border-radius: 50px;
+    position: relative;
+    top: 10px;
+
+
+    .title {
+        font-size: 30px;
+        color: var(--green-primary);
+        font-weight: 700;
+    }
+
+    .nav-link ul {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        color: inherit;
+
+        .signin {
+            border-top-left-radius: 50px;
+            border-bottom-left-radius: 50px;
+
+            &:hover {
+                background: var(--green-primary);
+                color: var(--white-color);
+            }
+        }
+
+        .signup {
+            border-top-right-radius: 50px;
+            border-bottom-right-radius: 50px;
+        }
+
+
+        .nav-li:hover {
+            text-decoration: underline;
+            text-decoration-color: var(--green-primary);
+            text-decoration-thickness: 2px;
+            text-underline-offset: 3px;
+        }
+
+    }
+}
