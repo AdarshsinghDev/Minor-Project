@@ -24,7 +24,7 @@ function Navbar() {
             </li>
             <li>
               <a href="" className="signin btn">
-                <FontAwesomeIcon icon={faSignInAlt} /> Sign In
+                <FontAwesomeIcon icon={faSignInAlt} /> Log In
               </a>
             </li>
             <li>
